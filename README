@@ -1,3 +1,18 @@
+This is a fork
+==============
+
+This is a fork of the code at https://fedorahosted.org/suds/
+
+The point of the fork is to get suds to work under python3. We gotten it to the
+point where it will pass the unit tests that are not dependent on servers. We are not
+using it in production ourselves yet and have halted further work since other parts
+of our code base proved hard to move to python3.
+
+
+
+---
+
+
 OVERVIEW
 
 The "Suds" web services client is a lightweight soap-based client for python
